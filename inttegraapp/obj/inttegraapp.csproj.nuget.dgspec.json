@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\inttegraapp.csproj": {}
+    "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\inttegraapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\inttegraapp.csproj": {
+    "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\inttegraapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
+        "projectUniqueName": "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
         "projectName": "inttegraapp",
-        "projectPath": "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
-        "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\obj\\",
+        "projectPath": "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
+        "packagesPath": "C:\\Users\\lazar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,10 +47,6 @@
             "EPPlus": {
               "target": "Package",
               "version": "[5.8.6, )"
-            },
-            "LinqToCsv": {
-              "target": "Package",
-              "version": "[1.5.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -93,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

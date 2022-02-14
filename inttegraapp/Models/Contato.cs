@@ -1,12 +1,12 @@
-﻿using CsvHelper.Configuration.Attributes;
-using LINQtoCSV;
+﻿
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace inttegraapp.Models
 {
     public class Contato
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [Display(Name = "Nome")]
 
@@ -17,7 +17,7 @@ namespace inttegraapp.Models
         public string Email { get; set; }
 
         [Display(Name = "Aniversário")]
-        public DateTime Aniversario { get; set; }
+        public string Aniversario { get; set; }
 
         public string Telefone { get; set; }
 
@@ -26,12 +26,12 @@ namespace inttegraapp.Models
 
         }
 
-        public Contato(int id, string name, string email, DateTime aniversario, string telefone)
+        public Contato(string id, string name, string email, DateTime aniversario, string telefone)
         {
             Id = id;
             Name = name;
             Email = email;
-            Aniversario = aniversario;
+            Aniversario = aniversario.ToString();
             Telefone = telefone;
         }
     }

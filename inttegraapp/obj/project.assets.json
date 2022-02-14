@@ -44,15 +44,6 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
-      "LINQtoCSV/1.5.0": {
-        "type": "package",
-        "compile": {
-          "lib/net35/LINQtoCSV.dll": {}
-        },
-        "runtime": {
-          "lib/net35/LINQtoCSV.dll": {}
-        }
-      },
       "MessagePack/2.1.152": {
         "type": "package",
         "dependencies": {
@@ -3446,18 +3437,6 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
-      ]
-    },
-    "LINQtoCSV/1.5.0": {
-      "sha512": "R3FWKGV326oWhEIJFgBQvJyeEs7ylViAMjTYs1YetwVdGfbDGf465xfLaxUxePwF/8Tcajt/1Llj3exhYL2xhQ==",
-      "type": "package",
-      "path": "linqtocsv/1.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/LINQtoCSV.dll",
-        "linqtocsv.1.5.0.nupkg.sha512",
-        "linqtocsv.nuspec"
       ]
     },
     "MessagePack/2.1.152": {
@@ -10596,7 +10575,6 @@
     "net6.0": [
       "CsvHelper >= 27.2.1",
       "EPPlus >= 5.8.6",
-      "LinqToCsv >= 1.5.0",
       "Microsoft.EntityFrameworkCore >= 6.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
@@ -10605,19 +10583,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jonat\\.nuget\\packages\\": {}
+    "C:\\Users\\lazar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
+      "projectUniqueName": "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
       "projectName": "inttegraapp",
-      "projectPath": "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
-      "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\source\\repos\\inttegraapp\\inttegraapp\\obj\\",
+      "projectPath": "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\inttegraapp.csproj",
+      "packagesPath": "C:\\Users\\lazar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lazar\\Source\\Repos\\champanjonata\\inttegraapp\\inttegraapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10650,10 +10628,6 @@
           "EPPlus": {
             "target": "Package",
             "version": "[5.8.6, )"
-          },
-          "LinqToCsv": {
-            "target": "Package",
-            "version": "[1.5.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -10696,20 +10670,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'LINQtoCSV 1.5.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "LINQtoCSV",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

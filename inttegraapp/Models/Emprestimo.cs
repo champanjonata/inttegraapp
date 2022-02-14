@@ -1,4 +1,6 @@
-﻿namespace inttegraapp.Models
+﻿using System;
+
+namespace inttegraapp.Models
 {
     public class Emprestimo
     {

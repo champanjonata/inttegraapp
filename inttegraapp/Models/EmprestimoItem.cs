@@ -1,4 +1,6 @@
-﻿namespace inttegraapp.Models
+﻿using System;
+
+namespace inttegraapp.Models
 {
     public class EmprestimoItem
     {
@@ -6,7 +8,7 @@
 
         public Emprestimo EmprestimoId { get; set; }
 
-        public DateTime? DataDevolucao { get; set; }
+        public DateTime DataDevolucao { get; set; }
 
         public String Item { get; set; }
 
@@ -17,7 +19,7 @@
 
         }
 
-        public EmprestimoItem(int id, Emprestimo emprestimoId, DateTime? dataDevolucao, string item, bool devolvidoSN)
+        public EmprestimoItem(int id, Emprestimo emprestimoId, DateTime dataDevolucao, string item, bool devolvidoSN)
         {
             Id = id;
             EmprestimoId = emprestimoId;

@@ -10,7 +10,6 @@
         "dependencies": {
           "CsvHelper": "27.2.1",
           "EPPlus": "5.8.6",
-          "LINQtoCSV": "1.5.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.1",
@@ -57,14 +56,6 @@
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
-          }
-        }
-      },
-      "LINQtoCSV/1.5.0": {
-        "runtime": {
-          "lib/net35/LINQtoCSV.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
           }
         }
       },
@@ -2449,13 +2440,6 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
-    },
-    "LINQtoCSV/1.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-R3FWKGV326oWhEIJFgBQvJyeEs7ylViAMjTYs1YetwVdGfbDGf465xfLaxUxePwF/8Tcajt/1Llj3exhYL2xhQ==",
-      "path": "linqtocsv/1.5.0",
-      "hashPath": "linqtocsv.1.5.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",

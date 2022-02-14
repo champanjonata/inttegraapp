@@ -1,13 +1,20 @@
 using inttegraapp.Data;
+
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
-var serverVersion = new Microsoft.EntityFrameworkCore.MySqlServerVersion(new Version(8, 0, 27));
+//var serverVersion = new Microsoft.EntityFrameworkCore.MySqlServerVersion(new Version(8, 0, 27));
 
-builder.Services.AddDbContext<InttegraappContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("dbContext"), serverVersion));
+//builder.Services.AddDbContext<InttegraappContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("dbContext"), serverVersion));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
