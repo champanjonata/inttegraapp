@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using inttegraapp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace inttegraapp.Data
 {
@@ -9,5 +10,9 @@ namespace inttegraapp.Data
         {
 
         }
+
+        public DbSet<Contato> Contatos { get; set; }
+
+        public DbSet<Emprestimo> Emprestimo { get; set; }
     }
 }

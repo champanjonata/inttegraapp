@@ -1,0 +1,28 @@
+﻿@using inttegraapp.Controllers
+@model IEnumerable<inttegraapp.Models.Contato>
+
+<h1>Importando contatos</h1>
+
+<h4>Contatos</h4>
+<hr />
+
+
+
+<div>
+    <form method="post" asp-controller="Contatos" asp-action="CreateCSV2">
+        <input type="file" name="file"/>
+        <button type="submit">Importar</button>
+    </form>
+</div>
+
+@{
+    @ViewData["Title"];
+}
+<br />
+<div>
+    <a asp-action="Index">Voltar para lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
